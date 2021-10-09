@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap'); 
+html,
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* navigation 
+ - show navigation always on the large screen devices with (min-width:1024)
+*/
+
+@media (min-width: 1024px) {
+  .top-navbar {
+    display: inline-flex !important;
+  }
+}
